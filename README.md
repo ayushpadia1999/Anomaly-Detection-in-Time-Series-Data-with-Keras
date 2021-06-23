@@ -10,16 +10,26 @@ The Dataset is a time series with daily un-adjusted closing prices for the S&P 5
 
 Source of Dataset: Yahoo Finance
 
-The Project will follow the below steps:
+The Project follows the below steps:
+
 Import Libraries
+
 Load and Inspect the S&P 500 Index Data
+
 Data Preprocessing
+
 Temporalizing Data and Creating Training and Test Splits
+
 Build an LSTM Autoencoder
+
 Train the Autoencoder
+
 Plot Metrics and Evaluate the Model
+
 Detect Anomalies in the S&P 500 Index Data
+
 Visualize the Anomalies based on threshold
+
 
 Anomaly detection has been widely studied in statistics and machine learning, where it is also known as outlier detection, deviation detection, or novelty detection. The burgeon of various successful outlier detection algorithms is now applied to detect outliers in the stock market prices.
 
